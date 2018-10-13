@@ -39,7 +39,7 @@ public class MainJavaActivity extends AppCompatActivity {
 		final String path = SDCardTool.getPath(this , "apk");
 		final String fileName = "app123.apk";
 		DownloadUtil.get().download(
-				"http://apptest.cwedding.co/api/admin/v1/web/zh-Hant/getplist/363?sessionID=4D14434553447F72140C140604015D0F0F00055F43141A14535B575F5A140C145F455B4F575D5F76515B575F5A1855595B141A145559435842444F75595253140C141D0E0E00141A1455535A5A465E595853140C140F030E030001020507141A14694069140C14071806144B0302080B0A1606C54",
+				"https://github.com/ismyaki/ApkInstallTest/raw/master/sample.apk",
 				path,
 				fileName,
 				new DownloadUtil.OnDownloadListener() {
